@@ -7,6 +7,29 @@
 .indent {
     text-indent: 2em;
 }
+.photo-item {
+    margin: 0;
+}
+
+.photo-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photo-item img.no-crop {
+    aspect-ratio: auto;
+    object-fit: contain;
+    height: auto;
+}
+.photo-item figcaption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #5C5148;
+    text-align: left;
+}
 
     .faq-list {
     max-width: 750px;
@@ -265,31 +288,37 @@ img {
   <p>
     1. <b>Who is conducting this study?</b> Utah State University.
   </p>
-
+<br>
   <p>
     2. <b>Why is there a camera on the trail?</b> We are conducting a wildlife-recreation study to determine when and where recreators are most at risk of having conflict with a moose.
   </p>
-
+<br>
   <p>
-    3. <b>What kind of data are you logging?</b> We are logging wildlife data (species identified, male/female, etc.), the number of people in each group of recreators, and what kind of recreation is happening (biking, hiking, on-leash dog walking, etc.).
+    3. <b>What kind of data are you capturing?</b> We are capturing wildlife data (species identified, male/female, etc.), the number of people in each group of recreators, and what kind of recreation is happening (biking, hiking, on-leash dog walking, etc.).
   </p>
-
+<br>
   <p>
     4. <b>Who can view the images?</b> Only the immediate research team can view the images.
   </p>
-
+<br>
   <p>
-    5. <b>How is my privacy being protected?</b> Before we can view the images, they are all put through blurring software that fully blurs any humans captured, and originals are deleted. We are not logging any identifiable information. This is a scientific research project, and no photos may be used for law enforcement. Our data protocols have been reviewed and approved by the <a href="https://research.usu.edu/irb/">Institutional Review Board</a>.
+    5. <b>How is my privacy being protected?</b> Before we can view the images, they are all put through blurring software that fully blurs any humans captured, and originals are deleted. We are not logging any identifiable information. This is a scientific research project, and no photos may be used for law enforcement. Our data protocols have been reviewed and approved by the <a href="https://research.usu.edu/irb/">Institutional Review Board</a>. See below photo of myself on the trail, after the blurring software has been used.
   </p>
-
+<br>
   <p>
     6. <b>Who can I email with questions about the project?</b> Please feel free to email Melany McEntee at <a href="mailto:melany.mcentee@usu.edu">melany.mcentee@usu.edu</a> for any further questions regarding the project.
   </p>
 
 </div>
 </div>
-
   
+<figure class="photo-item">
+   <img src="07200010.JPG"
+                 alt="Melany on trail 1">
+            <figcaption>
+                Blurred photo of Melany on one of our trail cams. 
+            </figcaption>
+        </figure>
  
   <div class="moose-photo">
   <img src="ShirasBull.jpg" alt="Shiras bull">
