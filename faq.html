@@ -50,17 +50,27 @@
     color: #A97955;
     text-decoration: underline;
 }
-    .moose-photo {
-    margin-top: 40px;
+    
+.moose-photo {
+    margin: 10px auto 20px;
     text-align: center;
+    max-width: 450px;
 }
 
 .moose-photo img {
-    max-width: 100%;
-    width: 725px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+}
+
+.moose-photo .caption {
+    font-size: 0.8rem;
+    color: #6b625a;
+    font-style: italic;
+    margin-top: 5px;
+    line-height: 1.4;
 }
     
     header h1,
@@ -282,6 +292,16 @@ img {
   <div class="welcome-section">
     
     <h2>Frequently Asked Questions</h2>
+
+
+   
+<div class="moose-photo">
+    <img src=" 469034243_18047982185027587_5847809534562313030_n.jpg"
+         alt="Moose captured on a trail camera">
+    <p class="caption">
+        Moose-Recreational Overlap Study: Utah State University M.S. Project
+    </p>
+</div>
 
 <div class="faq-list">
 
